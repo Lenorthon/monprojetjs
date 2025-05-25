@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "title": "Appartement Paris Centre",
+      "price": 120,
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+      "description": "Très bel appartement proche du Louvre. 2 chambres, Wi-Fi, climatisation.",
+      "location": "Paris, France"
+    },
+    {
+      "id": 2,
+      "title": "Chalet à Chamonix",
+      "price": 180,
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+      "description": "Vue sur le Mont-Blanc, parfait pour le ski. Sauna et cheminée inclus.",
+      "location": "Chamonix, France"
+    },
+    {
+      "id": 3,
+      "title": "Villa à Marrakech",
+      "price": 200,
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+      "description": "Villa avec piscine privée, à 10 min de la Médina. 4 chambres.",
+      "location": "Marrakech, Maroc"
+    },
+    {
+      "id": 4,
+      "title": "Studio à Tokyo",
+      "price": 95,
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+      "description": "Studio moderne dans le quartier de Shibuya. Parfait pour les nomades numériques.",
+      "location": "Tokyo, Japon"
+    },
+    {
+      "id": 5,
+      "title": "Cabane dans les arbres",
+      "price": 150,
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+      "description": "Expérience unique en pleine nature. 100% éco-responsable.",
+      "location": "Ardèche, France"
+    }
+    
+  ]
+  
+  
