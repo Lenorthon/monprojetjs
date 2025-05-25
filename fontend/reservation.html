@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Réservation</title>
+  <link rel="stylesheet" href="reservation.css" />
+</head>
+<body>
+  <header>
+    <h1>Réserver : <span id="listingTitle"></span></h1>
+    <a id="backLink" href="#">← Retour</a>
+  </header>
+
+  <div class="form-container">
+    <div id="resError" class="form-error"></div>
+
+    <label for="start">Date d’arrivée</label>
+    <input type="date" id="start" required />
+
+    <label for="end">Date de départ</label>
+    <input type="date" id="end" required />
+
+    <label for="adults">Nombre d’adultes</label>
+    <input type="number" id="adults" min="1" value="1" required />
+
+    <label for="children">Nombre d’enfants</label>
+    <input type="number" id="children" min="0" value="0" />
+
+    <button id="bookBtn">Confirmer la réservation</button>
+  </div>
+
+  <script src="reservation.js"></script>
+</body>
+</html>
+

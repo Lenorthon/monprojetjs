@@ -1,0 +1,66 @@
+/* details.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #ff5a5f;
+  color: white;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+main#details-container {
+  max-width: 700px;
+  margin: 2rem auto;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+main#details-container h2 {
+  margin-top: 0;
+  font-size: 2rem;
+  color: #222;
+}
+
+main#details-container img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  object-fit: cover;
+}
+
+main#details-container p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+main#details-container strong {
+  color: #555;
+}
